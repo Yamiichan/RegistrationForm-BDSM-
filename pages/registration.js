@@ -44,9 +44,9 @@ export default function RegisterForm() {
                     <label> Address </label>
                     <input type="text" name="address" placeholder='Enter Address' size="15" onChange={e => setRegisterAddress(e.target.value)}required></input><br></br>
                     <label>Are You Old TUP Student?</label><br></br>
-                    <input type="text" name="OldTUPStudent" placeholder='Yes or No' onChange={e => setRegisterOldTUPStudent (e.target.value)}></input><br></br>
+                    <input type="text" name="OldTUPStudent" placeholder='Yes or No' onChange={e => setRegisterOldTUPStudent (e.target.value)} required></input><br></br>
                     <label> Reason of Registration </label>
-                    <textarea id='ReasonofRegistration' name='ReasonofRegistration' placeholder='Reason of Registration' rows="4" cols="50" onChange={e => setRegisterReasonofRegistration (e.target.value)}></textarea>
+                    <textarea id='ReasonofRegistration' name='ReasonofRegistration' placeholder='Reason of Registration' rows="4" cols="50" onChange={e => setRegisterReasonofRegistration (e.target.value)} required></textarea>
                     <a href="registration">
                     <button onClick={regform}>Submit</button>
                     </a>
