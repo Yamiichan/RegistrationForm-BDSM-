@@ -1,0 +1,36 @@
+.body {
+    padding: 78px;
+    background-color: #3c0008;
+}
+
+.h1 {
+    position: absolute;
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    top: 190px;
+    right: 50px;
+}
+
+.body button{
+    position: absolute;
+    background-color: #f7cac9;  
+    color: black;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 414px;  
+    opacity: 0.9;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    bottom: 198px;
+    right: 250px;
+     
+}
+
+.body button:hover {
+    background-color: #ff9494;
+}
